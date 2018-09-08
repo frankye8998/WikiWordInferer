@@ -17,7 +17,7 @@ while len(key_words) != 20:
 		typeofword = "False"
 	if typeofword in ["preposition", "interjection", "conjunction", "False", "verb", "pronoun",]:
 		word_testing = randint(0,len(list_of_words))
-	elif word_testing in ["the","of","and","a","to","in","is","you","that","it","he","was","for","on","are","as","with","his","they","I","at","be","this","have","from","or","one"]:
+	elif list_of_words[word_testing] in ["the","of","and","a","to","in","is","you","that","it","he","was","for","on","are","as","with","his","they","I","at","be","this","have","from","or","one"]:
 		word_testing = randint(0,len(list_of_words))
 	else:
 		key_words[word_testing] = (list_of_words[word_testing])
