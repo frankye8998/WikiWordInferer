@@ -15,7 +15,7 @@ while len(key_words) != 20:
 		typeofword = vb.part_of_speech(list_of_words[word_testing], format="list")[0][0]
 	except TypeError:
 		typeofword = "False"
-	if typeofword in ["preposition", "interjection", "conjunction", "False", "verb"]:
+	if typeofword in ["preposition", "interjection", "conjunction", "False", "verb", "pronoun"]:
 		word_testing = randint(0,len(list_of_words))
 	else:
 		key_words[word_testing] = (list_of_words[word_testing])
