@@ -7,4 +7,6 @@ title = "<title>Lorem Ipsum</title>"
 
 favicon = '<link rel="shortcut icon" type="image/png" href="https://en.wikipedia.org/static/favicon/wikipedia.ico"/>'
 
-webbrowser.open("data:text/html,<html><head>" + title + favicon + "</head><body><p>" + content + "</p></body></html>")
+article_title = "<h1>Lorem Ipsum Ur mom Big Dumb</h1><br>"
+
+webbrowser.open("data:text/html,<html><head>" + title + favicon + "</head><body><p>" + article_title + content + "</p></body></html>")
