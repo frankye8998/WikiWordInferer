@@ -6,7 +6,7 @@ list_of_words = findarticle("Barack")[1].split() # Imports the article and split
 
 
 # Does some magic and stores typeofword as the type of word
-key_words = []
+key_words = {}
 
 
 word_testing = randint(0,len(list_of_words))
@@ -18,5 +18,5 @@ while len(key_words) != 20:
 	if typeofword in ["preposition", "interjection", "conjunction", "False", "verb"]:
 		word_testing = randint(0,len(list_of_words))
 	else:
-		key_words.append(list_of_words[word_testing])
+		key_words[word_testing] = (list_of_words[word_testing])
 		word_testing = randint(0,len(list_of_words))
