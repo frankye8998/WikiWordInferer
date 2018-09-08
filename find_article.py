@@ -10,5 +10,5 @@ def findarticle(article):
 	#Stores the article as a string (for parsing and finding key words later)
 	x = wikipedia.page(article)
 	str_article = str(x.content)
-	return str_article
+	return article, str_article
 	
