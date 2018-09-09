@@ -1,3 +1,4 @@
 beautifulsoup4==4.6.0
 requests==2.11.1
 wikipedia==1.4.0
+vocabulary == 1.0.4
